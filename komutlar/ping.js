@@ -1,17 +1,25 @@
 const Discord = require('discord.js');
-exports.run = function(client, message, args) {
-  message.reply('Pong! **' + client.ping + '** ms');
-};
+const client = new Discord.Client();
 
+exports.run = async (bot, message, args) => {
+    let now = Date.now();
+
+    let embed = new Discord.RichEmbed()
+        .setDescription(`Gecikmem: ${new Date().getTime() - message.createdTimestamp}ms`)
+        .setColor("RANDOM")
+
+    message.channel.send(embed);
+
+};
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: [],
+  aliases: ['ping'],
   permLevel: 0
 };
 
 exports.help = {
   name: 'ping',
-  description: 'Botun pingini gösterir.',
+  description: 'Pingi gösterir.',
   usage: 'an!ping'
 };
