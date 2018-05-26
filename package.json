@@ -1,0 +1,21 @@
+{
+  "name": "ananbot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "FlyNude",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cleverbot-node": "^0.3.11",
+    "client": "0.0.1",
+    "discord.js": "^11.3.2",
+    "moment": "^2.22.1",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
