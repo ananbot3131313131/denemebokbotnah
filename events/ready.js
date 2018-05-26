@@ -34,7 +34,7 @@ console.log('Bot hazır ve giriş yaptı.');
 	    "Anan Baksın Sana",
 	    "Sütünmü Bitti Yavrumm...",
 	    "Analar dert yesin yumurtayı 4 yesin yarımşar veriverinde yiyivesin",
-	    "Sahibim:FlyNude#3260
+	    "Sahibim:FlyNude#3260"
 
     ];
 
