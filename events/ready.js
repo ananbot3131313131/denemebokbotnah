@@ -30,7 +30,11 @@ console.log('Bot hazır ve giriş yaptı.');
     
     "Scarew#0001 Bebeğime Teşekkürler",
     
-    "Ekibimize Katılmak için an!yardım yazıp destek sunucumuza gelebilirsin"
+    "Ekibimize Katılmak için an!yardım yazıp destek sunucumuza gelebilirsin",
+	    "Anan Baksın Sana",
+	    "Sütünmü Bitti Yavrumm...",
+	    "Analar dert yesin yumurtayı 4 yesin yarımşar veriverinde yiyivesin",
+	    "Sahibim:FlyNude#3260
 
     ];
 
