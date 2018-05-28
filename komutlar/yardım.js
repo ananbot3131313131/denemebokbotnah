@@ -13,6 +13,7 @@ exports.run = (client, message, params) => {
   .addField("**:tools: Botun Ana Komutları**", "\nan!yardım = BOT Komutlarını Atar. \nan!bilgi = BOT Kendisi Hakkında Bilgi Verir. \nan!ping = BOT Gecikme Süresini Söyler. \nan!davet = BOT Davet Linkini Atar. \nan!istatistik = BOT İstatistiklerini Atar.")
   .addField("**:straight_ruler: Matematik Komutları**","an!topla sayı sayı \nan!çarp sayı sayı \nan!çıkar sayı sayı \nan!böl sayı sayı.")
   .addField("**:underage: NSFW Komutları**","\nan!hd = 4k fotoğraf yollar.")
+  .addField("**:lock_with_ink_pen: Yapımcı Komutları**","\nan!ayrıl = Bot bulunduğu sunucudan ayrılır. \nan!dmat = Yapımcı İstediği Kişiye dm atar. \nan!eval = Js Kodu Dener. \nan!load = Komut Aktif Eder. \nan!reload = Komudu Yeniden Yükler. \nan!reboot = Bot Yeniden Başlar. \nan!sunucular = Botun Bulunduğu Sunucuları Gösterir. \nan!unload = Komudu Devredışı Bırakır.")
   .addField("**LİNKLER**", "\n[DESTEK SUNUCUM](https://discord.gg/rUj7B6T) \n[DAVET LİNKİM](https://discordapp.com/oauth2/authorize?client_id=449981813876588564&permissions=8&scope=bot)")
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
